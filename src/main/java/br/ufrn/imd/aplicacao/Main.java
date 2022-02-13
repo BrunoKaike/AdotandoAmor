@@ -221,14 +221,27 @@ public class Main {
 
         Scanner sc1 = new Scanner(System.in);
 
-        String nome, descricao, entrada;
+        String nome, descricao, entrada, sexo;
         int idade;
         boolean filhote, aprovado;
 
         System.out.println("Digite o nome do pet:");
         nome = sc1.nextLine();
 
-        System.out.println("Digite a idade do pet:");
+        System.out.println("Qual o sexo do pet? (M/F):");
+        entrada = sc1.nextLine();
+
+        if(entrada.equals("M")){
+
+            sexo = "Masculino";
+
+        } else {
+
+            sexo = "Feminino";
+
+        }
+
+        System.out.println("Digite a idade do pet em meses:");
         idade = sc1.nextInt();
         sc1.nextLine();
 
@@ -252,12 +265,12 @@ public class Main {
 
         if(entrada.equals("G")){
 
-            Gato novoGato = new Gato(nome, idade, filhote, false, descricao, novaFichaCadastralAnimal);
+            Gato novoGato = new Gato(nome, sexo, idade, filhote, false, descricao, novaFichaCadastralAnimal);
             animalDao.salvar(novoGato);
 
         } else {
 
-            Cachorro novoCachorro = new Cachorro(nome, idade, filhote, false, descricao, novaFichaCadastralAnimal);
+            Cachorro novoCachorro = new Cachorro(nome, sexo, idade, filhote, false, descricao, novaFichaCadastralAnimal);
             animalDao.salvar(novoCachorro);
         }
 
@@ -406,13 +419,13 @@ public class Main {
         FichaCadastralAnimal novaFichaCadastralAnimal = new FichaCadastralAnimal(u2, dataAual,false);
         fichaCadastralAnimalDao.salvar(novaFichaCadastralAnimal);
 
-        Gato novoGato = new Gato("Teo", 1, true, false, "Gato muito meigo que se dá bem com cachorros.", novaFichaCadastralAnimal);
+        Gato novoGato = new Gato("Teo", "Masculino",1, true, false, "Gato muito meigo que se dá bem com cachorros.", novaFichaCadastralAnimal);
         animalDao.salvar(novoGato);
 
         novaFichaCadastralAnimal = new FichaCadastralAnimal(u1, dataAual, true);
         fichaCadastralAnimalDao.salvar(novaFichaCadastralAnimal);
 
-        Cachorro novoCachorro = new Cachorro("Bob", 2, false, false, "Cachorro brincalhão.", novaFichaCadastralAnimal);
+        Cachorro novoCachorro = new Cachorro("Bob", "Masculino", 2, false, false, "Cachorro brincalhão.", novaFichaCadastralAnimal);
         animalDao.salvar(novoCachorro);
 
     }
