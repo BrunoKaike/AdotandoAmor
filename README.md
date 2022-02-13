@@ -15,10 +15,16 @@ Projeto desenvolvido e apresentado ao curso de Tecnologia da Informação da Uni
 O projeto Adotando Amor foi desenvolvido utilizando da linguagem Java utilizando do sistema de automação Gradle.
 
 ## Organização do projeto
-O projeto foi subdividio em três pastas pastas sendo elas aplicacao, dao, exxcecoes e model, que respectivamente são responsáveis pela exibição e manutenção da aplicação, manipulação de dados, modelo de excecoes e modelos de objetos. A imagem abaixo representa essa estruturação:
+O projeto foi subdividio em três pastas pastas sendo elas aplicacao, dao, exxcecoes e model, que respectivamente são responsáveis pela exibição e manutenção da aplicação, manipulação de dados, modelo de excecoes e modelos de objetos. 
 
 <center>
 <img src="imagens/estruturacao.png">
+</center>
+
+A estruturação do projeto pode ser verificada de forma simplificada de acordo com o diagrama de classes abaixo:
+
+<center>
+<img src="imagens/diagrama.jpg">
 </center>
 
 ## Compilando e executando com Javac
