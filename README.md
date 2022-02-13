@@ -1,23 +1,40 @@
-# imd0040-tfinal
+# Projeto Adotando Amor
+Adotando Amor é um projeto em que qualquer pessoa pode divulgar cães e gatos para adoção de forma online.
 
-Repositório modelo para criação do Projeto Final da disciplina de Linguagem de Programação II do Instituto Metrópole Digital da UFRN ministrada pelo Prof. Gustavo Leitão.
+## Objetivos
 
-As instruções detalhadas para o trabalho podem ser encontradas [neste link](https://happy-wool-a9a.notion.site/Trabalho-III-Unidade-a839a62426ea4c5a9d03df8144703aab).
+Adotando com amor foi idealizado com o próposito de tornar a adoção algo com mais visibilidade e viabilidade.
 
-O grupo deve por neste README, pelo menos, as seguintes informações:
+Projeto desenvolvido e apresentado ao curso de Tecnologia da Informação da Universidade Federal do Rio Grande do Norte, como requisito parcial para obtenção de nota na disciplina de Linguagem de Programação II, ministrada pelo professor Gustavo Bezerra Paz Leitão(*<gustavo.leitao@imd.ufrn.br>*).
 
-## Link para vídeo de apresentação
 
-> Tempo máximo de 5 minutos
+## Sobre o projeto
+<center>
+<img src="imagens/adotandoamor1.png">
+</center>
+O projeto Adotando Amor foi desenvolvido utilizando da linguagem Java utilizando do sistema de automação Gradle.
 
-## Descrição do trabalho
+## Organização do projeto
+O projeto foi subdividio em três pastas pastas sendo elas aplicacao, dao, exxcecoes e model, que respectivamente são responsáveis pela exibição e manutenção da aplicação, manipulação de dados, modelo de excecoes e modelos de objetos. A imagem abaixo representa essa estruturação:
 
-> Descreva aqui a ideia do trabalho e que problema resolve
+<center>
+<img src="imagens/estruturacao.png">
+</center>
 
-## Diagrama de classes
+## Compilando e executando com Javac
+```
+javac @sources.txt
+java br/ufrn/imd/aplicacao/Main
+```
 
-> Coloque aqui imagem com breve descrição da organização das classes do projeto
+## Autor
 
-## Instruções para build e execução
+Bruno Kaike do Nascimento Batista -
+[GitHub](https://github.com/BrunoKaike)
 
-> Adicione instruções de como compilar e executar o sistema
+## Contato
+
+Bruno Kaike do Nascimento Batista -
+*<brunokaike@ufrn.edu.br>*
+
+Link do projeto: [https://github.com/imetropoledigital/imd0040-trabalho-final-bruno](https://github.com/imetropoledigital/imd0040-trabalho-final-bruno)
