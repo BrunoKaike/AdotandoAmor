@@ -33,6 +33,9 @@ javac @sources.txt
 java br/ufrn/imd/aplicacao/Main
 ```
 
+## Vídeo explicativo
+https://youtu.be/ieawp9-nLHk
+
 ## Autor
 
 Bruno Kaike do Nascimento Batista -
