@@ -9,9 +9,9 @@ package br.ufrn.imd.model;
 
 public class Gato extends Animal{
 
-    public Gato(String nome, int idade, boolean filhote, boolean adotado, String descricao, FichaCadastralAnimal fichaCadastralAnimal){
+    public Gato(String nome, String sexo, int idade, boolean filhote, boolean adotado, String descricao, FichaCadastralAnimal fichaCadastralAnimal){
 
-        super(nome, idade, filhote, adotado, descricao, fichaCadastralAnimal);
+        super(nome, sexo, idade, filhote, adotado, descricao, fichaCadastralAnimal);
 
     }
 }
