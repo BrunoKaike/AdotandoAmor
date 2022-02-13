@@ -43,9 +43,10 @@ public class Animal {
      */
     private FichaCadastralAnimal fichaCadastralAnimal;
 
-    public Animal(String nome, int idade, boolean filhote, boolean adotado, String descricao, FichaCadastralAnimal fichaCadastralAnimal){
+    public Animal(String nome, String sexo, int idade, boolean filhote, boolean adotado, String descricao, FichaCadastralAnimal fichaCadastralAnimal){
 
         this.nome = nome;
+        this.sexo = sexo;
         this.idade = idade;
         this.filhote = filhote;
         this.adotado = adotado;
